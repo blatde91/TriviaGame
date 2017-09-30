@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Blade Runner Movie Font";
+	src: url("../BLADRMF_.TTF");
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/cowboybebop.jpg")
+}
+
+#container {
+	background: gray;
+	margin: 30px auto;
+	padding: 30px;
+	width: 66%;
+	border: 3px solid black;
+}
+
+h1, p  {
+	text-align: center;
+	font-family: "Blade Runner Movie Font";
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#restart:hover, .answerOpt:hover, #startButton:hover {
+	background-color: red;
+	border: 2px solid black;
+
+}
+
+#heading {
+	text-align: center;
+}
+
+.imgContainer {
+	margin: 10px auto;
+	display: block;
+	width: 305px;
+}
+
+.gifContainer {
+	display: block;
+	margin: 10px auto;
+	width: 500px;
+}
+
+#gif {
+	width: 500px;
+	height: 250px;
+}
